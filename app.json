@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Digital Profile",
+    "slug": "DigitalProfile",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "ios": {
+      "bundleIdentifier":"com.cr8consultancy.DigitalProfile",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.cr8consultancy.DigitalProfile"
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app_logo.png",
+    "splash": {
+      "image": "./assets/SplashScreen.png",
+      "resizeMode": "contain",
+      "backgroundColor":"#010045"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+
+  }
+}
